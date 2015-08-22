@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.1" type="template" client="site" method="upgrade">
+    <name>Kudu</name>
+    <creationDate>August 2015</creationDate>
+    <author>Krishnan</author>
+    <authorEmail>krishnan57474@gmail.com</authorEmail>
+    <authorUrl>https://github.com/krishnan57474</authorUrl>
+    <copyright>Copyright (C) 2015 Krishnan. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <version>2.1.0</version>
+    <description>A simple joomla template</description>
+
+    <files>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+        <filename>favicon.ico</filename>
+        <filename>index.html</filename>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>template_thumbnail.png</filename>
+        <folder>css</folder>
+        <folder>js</folder>
+        <folder>lib</folder>
+    </files>
+
+    <positions>
+        <position>top</position>
+        <position>footer</position>
+    </positions>
+</extension>
